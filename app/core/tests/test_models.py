@@ -29,7 +29,7 @@ class ModelTest(TestCase):
         self.assertEqual(user.email, email.lower())
 
     def test_new_user_invalid_email(self):
-        """ 
+        """
             Test Creating a user with no Email raises Error
         """
 
